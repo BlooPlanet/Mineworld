@@ -1,13 +1,18 @@
 package io.github.some_example_name;
 
 import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.Gdx;
 
 public class Main implements ApplicationListener {
 
 	@Override
 	public void create() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("hello world iam new there");
+		System.out.println("hello world iam new there");
+		System.out.println("hello world iam new there");
+		System.out.println("hello world iam new there");
+		System.out.println("hello world iam new there");
 	}
 
 	@Override
@@ -19,7 +24,8 @@ public class Main implements ApplicationListener {
 	@Override
 	public void render() {
 		// TODO Auto-generated method stub
-		
+		float fps = 1 / Gdx.graphics.getDeltaTime();
+		System.out.println("delta time : " + fps);
 	}
 
 	@Override
