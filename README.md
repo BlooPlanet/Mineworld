@@ -1,2 +1,2 @@
 # Mineworld
-this is a simple minecraft clone and i used java and (3d framework libgdx)
+this is a simple minecraft clone, or you could call a (Vexel Engine) and i built in java with (3d framework libgdx).
