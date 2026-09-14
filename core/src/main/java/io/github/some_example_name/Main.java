@@ -2,39 +2,41 @@ package io.github.some_example_name;
 
 import com.badlogic.gdx.ApplicationListener;
 
-/** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class Main implements ApplicationListener {
-    @Override
-    public void create() {
-        // Prepare your application here.
-    }
 
-    @Override
-    public void resize(int width, int height) {
-        // If the window is minimized on a desktop (LWJGL3) platform, width and height are 0, which causes problems.
-        // In that case, we don't resize anything, and wait for the window to be a normal size before updating.
-        if(width <= 0 || height <= 0) return;
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+		
+	}
 
-        // Resize your application here. The parameters represent the new window size.
-    }
+	@Override
+	public void resize(int width, int height) {
+		// TODO Auto-generated method stub
+		
+	}
 
-    @Override
-    public void render() {
-        // Draw your application here.
-    }
+	@Override
+	public void render() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    @Override
-    public void pause() {
-        // Invoked when your application is paused.
-    }
+	@Override
+	public void pause() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    @Override
-    public void resume() {
-        // Invoked when your application is resumed after pause.
-    }
+	@Override
+	public void resume() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    @Override
-    public void dispose() {
-        // Destroy application's resources here.
-    }
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+		
+	}
 }
